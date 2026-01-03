@@ -1,3 +1,9 @@
+    // Student Report Tracker
+    // Takes student data (name, roll number, marks) from the teacher,
+    // calculates percentage, and stores records in a text file.
+    // Displays students in rank-wise order using file handling.
+    
+
     #include <stdio.h>
     #include <string.h>
     #include <stdlib.h>
@@ -139,4 +145,5 @@
         fclose(ptr);
         free(s);
         return 0;
+
     }
