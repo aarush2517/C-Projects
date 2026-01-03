@@ -1,4 +1,5 @@
 // GUESS THE NUMBER GAME 
+// A simple guess the number game using the fundamentals of the C language and FILE handling
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -146,3 +147,4 @@ int main()
 
     return 0;
 }
+
